@@ -1,14 +1,22 @@
 ﻿using Cake.Core;
 using Cake.Core.Annotations;
 using Cake.Core.Diagnostics;
+using Cake.Core.IO;
 using Microsoft.CodeAnalysis;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Cake.RoslynAnalyzers
 {
 	[CakeAliasCategory("Code Analysis"), CakeAliasCategory("Code Quality")]
 	public static class CakeAliases
 	{
+		[CakeMethodAlias()]
+		public static void RoslynAnalyzer(this ICakeContext context, IEnumerable<FilePath> solutionFiles = null, IEnumerable<FilePath> projectFiles = null)
+		{
+			RoslynAnalyzer(context, solutionFiles.Select(f => f.FullPath), projectFiles.Select(f => f.FullPath));
+		}
+
 		[CakeMethodAlias()]
 		public static void RoslynAnalyzer(this ICakeContext context, IEnumerable<string> solutionFiles = null, IEnumerable<string> projectFiles = null)
 		{
