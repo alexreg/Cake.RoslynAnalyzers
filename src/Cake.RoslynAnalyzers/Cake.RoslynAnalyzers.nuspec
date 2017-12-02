@@ -7,7 +7,7 @@
     <authors>Alexander Regueiro</authors>
     <owners>Alexander Regueiro</owners>
     <licenseUrl>https://opensource.org/licenses/BSD-3-Clause</licenseUrl>
-    <!--<projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>-->
+    <projectUrl>https://github.com/alexreg/Cake.RoslynAnalyzers</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An addin for Cake that allows for Roslyn code analyzers to be run on solutions and projects</description>
