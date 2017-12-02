@@ -10,7 +10,7 @@
     <!--<projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>-->
     <iconUrl>https://raw.githubusercontent.com/cake-contrib/graphics/a5cf0f881c390650144b2243ae551d5b9f836196/png/cake-contrib-medium.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>An addin for Cake that allows for Roslyn code analyzers to be run for solutions and projects.</description>
+    <description>An addin for Cake that allows for Roslyn code analyzers to be run on solutions and projects</description>
     <releaseNotes>Initial release.</releaseNotes>
     <copyright>Copyright © 2017 Alexander Regueiro</copyright>
     <tags>cake cake-addin roslyn code-analysis code-quality</tags>

@@ -34,6 +34,7 @@ tools/**
 !**/packages/build/
 *.nuget.props
 *.nuget.targets
+*.nupkg
 
 # Testing (NUnit)
 *.VisualState.xml
