@@ -1,0 +1,43 @@
+# User-specific files (Visual Studio)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Cache files (Visual Studio)
+*.[Cc]ache
+!*.[Cc]ache/
+
+# Cache files (Rider)
+*.*.iml
+.idea/
+
+# Build files
+[Oo]ut/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Cake
+tools/**
+!tools/packages.config
+
+# NuGet Packages
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Testing (NUnit)
+*.VisualState.xml
+TestResult.xml
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
